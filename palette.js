@@ -81,7 +81,6 @@
 'use strict';
 
 var palette = (function() {
-
   var proto = Array.prototype;
   var slice = function(arr, opt_begin, opt_end) {
     return proto.slice.apply(arr, proto.slice.call(arguments, 1));
@@ -1472,3 +1471,5 @@ palette.SchemeType;
     palette.register(scheme);
   }
 })();
+
+export default palette;

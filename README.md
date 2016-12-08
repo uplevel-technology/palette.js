@@ -1,6 +1,9 @@
 Colour Palette Generator
 ========================
 
+__NOTE:__ This is a fork of Google's colour palette library with
+necessary modifications to be usable as a Webpack module.
+
 The palette.js script allows to generate palette colours and was
 intended for use with graphs, charts and cartography.  In default
 setup, it contains [Paul Tol's](http://www.sron.nl/~pault) and
